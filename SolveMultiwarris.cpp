@@ -23,8 +23,14 @@ public:
     }
 };
 
-class pekerja : public orang 
+class pelajar : public orang 
 {
-public:
+public: 
+
+    pelajar(int pUmur)
+        orang(pUmur)
+    {
+        cout << "Pelajar dibuat\n" << endl;
+    }
 
 }
